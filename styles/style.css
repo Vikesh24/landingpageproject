@@ -1,0 +1,170 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  padding: 10px;
+  background-color: #1f2937;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  padding: 20px;
+}
+.headerLogo img {
+  height: 50px;
+  width: 50px;
+}
+
+.navList {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0 20px;
+}
+
+.navList li {
+  padding: 15px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.main-container {
+  display: flex;
+  background-color: #1f2937;
+  padding: 30px 30px 30px 100px;
+  justify-content: space-evenly;
+}
+
+.contentText {
+  padding: 20px;
+}
+
+.textHeader {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.subHeader {
+  padding: 15px 0px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.mainImage {
+  padding: 10px;
+}
+
+.mainImage img {
+  width: 75%;
+}
+
+#signup {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.info-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.info-header p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+.info-flex {
+  display: flex;
+  padding: 30px;
+}
+
+.boxandtext {
+  padding: 10px;
+}
+
+.box {
+  width: auto;
+  height: 300px;
+  border: 2px;
+  border-style: solid;
+  border-color: #3882f6;
+  border-radius: 5px;
+  margin: 10px 10px 30px 10px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+.quote-container p {
+  width: fit-content;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote-container #thortext {
+  text-align: right;
+}
+
+.contact-container {
+  padding: 100px;
+}
+.contact-box {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px;
+  align-items: center;
+}
+
+.contact-box p:first-of-type {
+  font-size: 36px;
+  font-weight: 700;
+  color: #e5e7eb;
+}
+
+.contact-box p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.contact-container button {
+  background-color: transparent;
+  border: 2px solid #e5e7eb;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: #e5e7eb;
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: #1f2937;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  text-align: center;
+  color: #e5e7eb;
+}
